@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "440066166514",
+    "firebase_url": "https://supermercato-77c93.firebaseio.com",
+    "project_id": "supermercato-77c93",
+    "storage_bucket": "supermercato-77c93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440066166514:android:1cc3b9e9713fae46",
+        "android_client_info": {
+          "package_name": "com.example.utente5academy.supermercato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440066166514-rque4mdliuf47il53o7t82mvae17seop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.utente5academy.supermercato",
+            "certificate_hash": "84b35cd7940c0852bd0ea1813e10ccb6cdb292a7"
+          }
+        },
+        {
+          "client_id": "440066166514-16br66v933mq6d5gluh1rpk77pfqv887.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.utente5academy.supermercato",
+            "certificate_hash": "c03f703be8530fd8e3e73f7071237d9568504d0f"
+          }
+        },
+        {
+          "client_id": "440066166514-kk3oarr0s8ft77d03cv90ds8pu6hke62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrHh99r-_d0zv_GIvl86J-_WPkLObR2as"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440066166514-kk3oarr0s8ft77d03cv90ds8pu6hke62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
