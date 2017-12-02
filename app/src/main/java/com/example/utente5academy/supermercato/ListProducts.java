@@ -91,6 +91,8 @@ public class ListProducts extends AppCompatActivity {
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(network(getApplicationContext()))
+                {
                 Intent i = new Intent(ListProducts.this, AddProduct.class);
                 PendingIntent pendingIntent = PendingIntent.getActivity(getBaseContext(), 1, i, PendingIntent.FLAG_UPDATE_CURRENT);
                 try {
@@ -98,6 +100,8 @@ public class ListProducts extends AppCompatActivity {
                 } catch (PendingIntent.CanceledException e) {
                     e.printStackTrace();
                 }
+            }else {
+                Toast.makeText(getApplicationContext(),"Rete non disponibile",Toast.LENGTH_LONG).show();}
             }
         });}
 
