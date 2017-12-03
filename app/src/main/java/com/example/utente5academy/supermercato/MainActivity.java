@@ -16,7 +16,6 @@ import com.example.utente5academy.supermercato.classi.SaveFileObject;
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
-    private SaveFileObject saveFileObject;
     private String utente;
     private SharedPreferences preferences;
     private TextView messaggio;
@@ -30,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         Button mostra = (Button) findViewById(R.id.mostra);
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editor = preferences.edit();
-        saveFileObject=new SaveFileObject(getApplicationContext());
         utente = preferences.getString("UtenteLoggato", "");
 
         mostra.setOnClickListener(new View.OnClickListener() {

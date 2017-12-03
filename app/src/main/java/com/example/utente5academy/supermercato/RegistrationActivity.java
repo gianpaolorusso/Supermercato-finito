@@ -18,7 +18,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class RegistrationActivity extends AppCompatActivity {
-    long num = 0;
     SharedPreferences.Editor editor;
     SharedPreferences preferences;
     EditText edit;
