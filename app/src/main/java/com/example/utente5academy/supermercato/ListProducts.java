@@ -38,8 +38,6 @@ public class ListProducts extends AppCompatActivity {
     private MyAdapter adapter;
     private ArrayList<Prodotti> listaPrdotti;
     private com.loopj.android.http.AsyncHttpClient asyncHttpClient;
-    public ArrayList<Prodotti> carne;
-    public ArrayList<Prodotti> Prodotti;
     private  JSONObject obj;
 
     @RequiresApi(api = Build.VERSION_CODES.M)
