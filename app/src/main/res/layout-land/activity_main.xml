@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.utente5academy.supermercato.MainActivity">
+
+    <TextView android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Esselunga"
+        android:textSize="0.3in"
+        android:id="@+id/titolo"
+        android:textColor="#FF3A3A"
+
+        />
+    <TextView
+
+        android:layout_below="@+id/titolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benvenuto"
+        android:textSize="0.2in"
+        android:id="@+id/benvenuto"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/messaggio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/benvenuto"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="messaggio"
+        android:textColor="#000000"
+        android:textSize="34px" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/titolo"
+        android:background="@drawable/carrello" />
+    <Button
+        android:text="Lista prodotti"
+        android:layout_margin="5dp"
+        android:id="@+id/mostra"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img1"
+        android:layout_toStartOf="@+id/titolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toEndOf="@+id/titolo"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/plus" />
+    <Button
+        android:text="Registrati"
+        android:id="@+id/registrati"
+        android:layout_toEndOf="@id/titolo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>
