@@ -68,4 +68,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             card = (CardView) itemView.findViewById(R.id.card);
         }
     }
+
+
+
 }

@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Esselunga"
-        android:textSize="120px"
+        android:textSize="0.3in"
         android:id="@+id/titolo"
         android:textColor="#FF3A3A"
 
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Benvenuto"
-        android:textSize="60px"
+        android:textSize="0.2in"
         android:id="@+id/benvenuto"
         android:textColor="#000000"
         android:layout_centerHorizontal="true"/>
@@ -41,8 +41,8 @@
 
     <ImageView
         android:id="@+id/img1"
-        android:layout_width="150px"
-        android:layout_height="150px"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_alignStart="@+id/img2"
         android:layout_below="@+id/messaggio"
         android:background="@drawable/carrello" />
@@ -58,8 +58,8 @@
 
     <ImageView
         android:id="@+id/img2"
-        android:layout_width="150px"
-        android:layout_height="150px"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_below="@+id/mostra"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
